@@ -9,14 +9,14 @@
     font-weight: 400;
     font-style: normal;
   }
- .tenor-sans-regular h2 {
-    font-size: 37.2pt;
+ .pro2 h2 {
+    font-size: 3rem;
  } 
- .tenor-sans-regular h1 {
-    font-size: 58pt;
+ .pro2 h1 {
+    font-size: 4rem;
  } 
  #web-dev {
-    font-size: 30pt;
+    font-size: 3rem;
  }
  .svgicon {
     margin-left: 10px;
@@ -25,7 +25,15 @@
  .bi-instagram {
     margin-left: 0%;
  }
- @media (max-width: 1024px) {
+ @media (max-width: 992px) {
+    html {
+        font-size: 10px;
+    }
+    .subjectimg {
+        width: 100%;
+        margin-left: 30px;
+    }
+
     .pro {
         display: flex;
         flex-direction: column;
@@ -47,6 +55,7 @@
         justify-content: center;
         align-items: center;
     }
+    
 
 
 }
@@ -110,4 +119,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+@media (max-width: 380px) {
+    .powerskill {
+        margin-left: 30px;
+        
+    }
 }
